@@ -1,0 +1,421 @@
+
+*{
+	font-family: 'Inter', sans-serif; 
+}
+/* heder */
+
+
+.heder{
+    background-color: #1b4961;
+}
+.maind{
+    font-size: 10px;
+}
+.main{
+    color: #de3643;
+}
+.office i, p {
+	padding: 5px;
+	margin-left: 19px;
+}
+.soseyal a {
+	display: inline-block;
+	color: white;
+	padding: 5px;
+	font-size: 27px;
+}
+.soseyal i{
+    margin: 5px 8px;
+}
+.soseyal i:hover{
+	color: cyan;
+}
+.banner-section{ 
+	background: url(./9.jpg) no-repeat top center;
+	background-size: cover;
+	padding: 140px 0;
+}
+.banner-contant{}
+ .bb2{
+	 border: 1px solid red;
+	 margin-left: 20px;
+ }
+ .bb2:hover{
+	 background: red;
+	 color: white;
+ }
+.banner-contant h4 {
+	color: #3a6b8d;
+	margin-left: 50px;
+	position: relative;
+}
+.banner-contant h2 {
+	font-weight: 700;
+	font-size: 61px;
+}
+.banner-contant p{
+	max-width: 566px;
+}
+/* logo */
+.logo img {
+	width: 143px;
+	margin: 26px 28px;
+}
+ 
+/* manu-bar */
+.manu-bar{}
+.manu-bar ul{}
+.manu-bar ul li{
+    display: inline-block;
+    margin: 33px 7px;
+	position: relative;
+}
+.manu-bar ul li a{
+   text-decoration: none;
+   color: rgb(53, 53, 53);
+}
+.manu-bar ul li a:hover{}
+.manu-bar ul li ul {
+	position: absolute;
+	background: aliceblue;
+	padding: 34px;
+	top: 100%;
+	left: 0px;
+	width: 170px;
+	transition: .4s;
+	opacity: 0;
+	visibility: hidden;
+	transform: scaley(0);
+	transform-origin: top center;
+}
+.manu-bar ul li ul li {
+	display: block;
+	margin: -3px 0px;
+	padding: 10px 10px;
+}
+.manu-bar ul li:hover ul{
+	transform: scaley(1);
+	opacity: 1;
+	visibility: visible;
+}
+
+ 
+/* Searches */
+.Searches i {
+	margin: 10px -7px;
+	color: rgb(53, 53, 53);
+	padding: 20px;
+}
+.Searches a:first-child i{
+    border-right: 1px solid rgb(53, 53, 53);
+}
+/* contect */
+.contect {
+    margin: 15px 0;
+  
+}
+.contect a {
+	text-decoration: none;
+	background-color: #bb2828;
+	display: inline-block;
+	padding: 18px;
+	color: white;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 200px;
+}
+.contect a:hover {
+	background-color: #5baeb5;
+	transition: .4s;
+}
+/* banner-section */
+.banner {
+	background-image: url(./9.jpg);
+	/* background-attachment: fixed; */
+	background-size: cover;
+	padding: 134px 0;
+	background-repeat: no-repeat;
+}
+.bannerl {
+	padding: 0 116px;
+}
+.banner h1 {
+	color: red;
+	font-size: 56px;
+}
+.banner h2 {
+	color: rgb(37, 66, 104);
+	font-size: 56px;
+}
+.banner h3 {
+	color: rgb(37, 66, 104);
+	font-size: 21px;
+}
+.banner ul{}
+.banner ul li{
+    float: left;
+    list-style: none;
+    margin: 7px;
+}
+.banner ul li:first-child a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+ 
+.banner ul li:last-child a{
+    border: 1px solid red;
+    color: red;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .4s;
+}
+ 
+.banner ul li a:hover:last-child{
+    background-color: red;
+	color: white;
+}
+.banner ul li a:hover{}
+
+
+ 
+.mdiv{
+    text-align: center;
+}
+.mdiv a:first-child {
+	text-decoration: none;
+	background-color: #ddd;
+	color: brown;
+	width: 94px;
+	border-radius: 5px;
+	padding: 9px 41px;
+	margin-right: 20px;
+}
+.mdiv a:first-child:hover{
+	color: black;
+}
+.mdiv a img{
+	transition: .4s;
+}
+ .mdiv a img:hover{
+	transform: scale(1.1);
+	transition: .4s;
+ 
+ }
+.mdiv a:last-child {
+	text-decoration: none;
+	background-color: #ddd;
+	color: #083123;
+	width: 94px; 
+	margin-left: 20px;
+ 
+	border-radius: 5px;
+	padding: 9px 41px;
+}
+.mdiv a:last-child:hover{
+	color: brown;
+}
+.adjus span i {
+	background-image: url(./download.png);
+	color: brown;
+	font-size: 42px;
+	border-radius: 50%;
+	padding: 26px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.adjus p i {
+	margin-left: 41px;
+	color: red;
+}
+.adjus h5 {
+	margin-left: -15px;
+}
+.adjusment{
+    margin-left: 10px;
+}
+.seniar a i:hover {
+	background-color: red;
+	transition: .4s;
+}
+.pp::after{
+	content: "";
+	width: 10px;
+	height: 1px;
+	background: red;
+	position: relative;
+	}
+	
+	.pp::before {
+		content: "";
+		width: 30px;
+		height: 1px;
+		background: red;
+		position: absolute;
+		margin-left: -45px;
+		margin-top: 6px;
+	}
+	.cc::after{
+		content: "";
+		width: 10px;
+		height: 1px;
+		background: red;
+		position: relative;
+		}
+		
+		.cc::before {
+			content: "";
+			width: 30px;
+			height: 1px;
+			background: red;
+			position: absolute;
+			margin-left: -38px;
+			margin-top: 40px;
+		}
+ 
+/* .image img {
+	width: 619px;
+	clip-path: polygon(0% 0%, 100% 0%,100% 100%,0% 92%);
+} */
+.ad-f{
+	margin-top: 10px;
+}
+.abut h1{
+	color: #285e76;
+	font-weight: 700;
+}
+.abut h6 {
+	color: brown;
+	margin-top: 37px;
+	margin-left: 36px;
+}
+.about-financ img {
+	margin-left: -267px;
+	width: 890px;
+	height: 601px;
+}
+.click-mind{
+    background-image: url(./pngtree-red-blockchain-technology-technology-banner-poster-image_195119\(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 76px;
+}
+.start {
+	background-color: #b72439;
+	padding: 63px;
+	border-radius: 5px;
+}
+.start a{
+    text-decoration: none;
+    padding: 6px 6px;
+    font-size: 30px;
+    color: red;
+    background-color: #fff;
+}
+/* consolution */
+.consul-work h5{color: #1b4962;}
+.consul-work h1{
+	color: #1b4962;
+	font-weight: 700;
+}
+.consul-work p{}
+
+.content-section{
+ background-color: #1b4961;
+}
+.content-section p {
+	max-width: 420px;
+	margin-left: 96px;
+}
+.content-section h2{
+	font-weight: 700;
+}
+.content-section {}
+.fman img {
+	width: 250px;
+	border-radius: 50%;
+	height: 250px;
+}
+.daag {
+	width: 387px;
+	height: 2px;
+	background-color: red;
+	box-shadow: 0px -7px 13px 2px rgba(255, 233, 233, 0.2);
+	margin-left: 113px;
+}
+.seniar a i{
+	border: 1px solid red;
+	padding: 16px 24px;
+	color: white;
+    box-shadow: 0px 0px 13px 2px rgba(255, 233, 233, 0.2);
+}
+.php a img {
+	width: 254px;
+}
+ 
+.consul-work img {
+	border-bottom: 4px solid rgb(75, 52, 206);
+	width: 390px;
+	margin: 15px;
+}
+.evre h1{
+	font-weight: 700;
+}
+/* .mrs15 */
+.mrs15 p img {
+	position: relative;
+	width: 403px;
+}
+.mrs15 span {
+	background-color: #ff7373;
+	padding: 1px 10px;
+	display: inline-block;
+	color: #f6f6f6;
+	position: absolute;
+	z-index: 1;
+	margin-left: -156px;
+}
+.mrs15 h2{
+	font-size: 29px;
+}
+/* maps */
+.map{
+	background-color: rgb(5, 64, 82);
+}
+.mapst{
+    background-color: rgb(5, 64, 82);
+}
+.icon i {
+	font-size: 46px;
+	border-radius: 50%;
+	border: 1px solid;
+	padding: 18px;
+	margin-top: 16px;
+}
+.infor {
+	margin-left: -180px;
+	font-size: 21px;
+	margin-top: 21px;
+}
+.pd {
+	height: 1px;
+	background-color: #fff;
+	width: 651px;
+}
+.contact-us{
+    background-color: #dd3647;
+    text-align: center;
+    padding: 5px;
+}
+.contact-us a{
+    text-decoration: none;
+    color: white;
+}
+  .footer{
+	  background-color: #0a2d40;
+  }
